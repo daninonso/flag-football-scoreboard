@@ -1,0 +1,221 @@
+@font-face {
+  font-family: Cursed Timer;
+  src: url(assets/CursedTimerUlil-Aznm.ttf);
+}
+
+.score,
+.reset-btn,
+.tuddy,
+#home-score,
+#away-score,
+#dash,
+#dnd h3 {
+  font-family: Cursed Timer, sans-serif;
+}
+
+.score,
+.reset-btn,
+.tuddy {
+  color: #9aabd8;
+}
+
+/* #home-score {
+} */
+
+h3.tuddy {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 6px;
+  margin-top: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#home-bcg {
+  width: 720px;
+  height: 100vh;
+  background-image: url(assets/home-bcg.png);
+  background-size: cover;
+  border-right: 1px solid #9aabd8;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 250px 20px 0px;
+}
+
+#away-bcg {
+  width: 720px;
+  height: 100vh;
+  background-image: url(assets/away-bcg.png);
+  background-size: cover;
+  border-left: 1px solid #9aabd8;
+}
+
+#rebels-logo {
+  max-width: 400px;
+  height: 400px;
+  margin-right: 32px;
+  margin-bottom: 20px;
+}
+
+.score-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.score {
+  border: 2px solid #9aabd8;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 0 6px 12px;
+}
+
+.reset-btn {
+  border: 2px solid #9aabd8;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 54px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0px 20px 250px;
+}
+
+#warriors-logo {
+  width: 333px;
+  max-width: 600px;
+  /* max-height: 1200px; */
+  margin-bottom: 80px;
+}
+
+#scoreboard-container {
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#scoreboard {
+  display: flex;
+  justify-content: center;
+  background-image: url(assets/scoreboard.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 350px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#main-score {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  height: 300px;
+}
+
+.team-record {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.team-record h1 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.win-record {
+  margin-top: 2px;
+}
+
+#home-score,
+#away-score {
+  color: #f94f6d;
+  font-size: 90px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.team-record h1,
+.win-record,
+#dash {
+  color: azure;
+}
+
+#dash {
+  font-size: 60px;
+  padding-top: 150px;
+  margin: 0 12px 0;
+}
+
+.football {
+  margin-top: 8px;
+  width: 50px;
+}
+
+#dnd {
+  width: 366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#down,
+#distance {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dnd h3 {
+  color: #f94f6d;
+  font-size: 60px;
+  background-color: #080001;
+  border-radius: 5%;
+  width: 155px;
+  text-align: center;
+  padding: 24px 0;
+  margin-bottom: 0;
+}
+
+#dnd p {
+  color: azure;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 8px;
+}
+
+#controls img {
+  width: 16px;
+  border: 2px solid #9aabd8;
+  border-radius: 10%;
+  padding: 16px 12px;
+}
