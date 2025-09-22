@@ -19,9 +19,6 @@
   color: #9aabd8;
 }
 
-/* #home-score {
-} */
-
 h3.tuddy {
   color: white;
   font-size: 24px;
@@ -37,10 +34,11 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 #home-bcg {
-  width: 720px;
+  width: 50vw;
   height: 100vh;
   background-image: url(assets/home-bcg.png);
   background-size: cover;
@@ -51,11 +49,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200px 250px 20px 0px;
+  margin: 150px 250px 20px 0px;
 }
 
 #away-bcg {
-  width: 720px;
+  width: 50vw;
   height: 100vh;
   background-image: url(assets/away-bcg.png);
   background-size: cover;
@@ -67,6 +65,13 @@ body {
   height: 400px;
   margin-right: 32px;
   margin-bottom: 20px;
+}
+
+button.score,
+button.reset-btn {
+  background: none;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .score-group {
@@ -100,7 +105,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200px 0px 20px 250px;
+  margin: 150px 0px 20px 250px;
 }
 
 #warriors-logo {
@@ -112,8 +117,9 @@ body {
 
 #scoreboard-container {
   position: absolute;
-  top: 20%;
-  left: 31%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;

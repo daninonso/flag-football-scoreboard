@@ -26,19 +26,23 @@
         </div>
         <div id="dnd">
             <div id="down">
-                <h3>1</h3>
+                <h3 id="downage">1</h3>
                 <p>Down</p>
                 <div id="controls">
-                    <img src="assets/chevron-down.png" alt="An icon of a hollowed out triangle facing downwards">
-                    <img src="assets/chevron-up.png" alt="An icon of a hollowed out triangle facing upwards">
+                    <img role="button" onclick="decreaseDown()" src="assets/chevron-down.png"
+                        alt="An icon of a hollowed out triangle facing downwards">
+                    <img role="button" onclick="increaseDown()" src="assets/chevron-up.png"
+                        alt="An icon of a hollowed out triangle facing upwards">
                 </div>
             </div>
             <div id="distance">
-                <h3>10</h3>
+                <h3 id="yardage">10</h3>
                 <p>Distance</p>
                 <div id="controls">
-                    <img src="assets/chevron-down.png" alt="An icon of a hollowed out triangle facing downwards">
-                    <img src="assets/chevron-up.png" alt="An icon of a hollowed out triangle facing upwards">
+                    <img role="button" onclick="decreaseDistance()" src="assets/chevron-down.png"
+                        alt="An icon of a hollowed out triangle facing downwards">
+                    <img role="button" onclick="increaseDistance()" src="assets/chevron-up.png"
+                        alt="An icon of a hollowed out triangle facing upwards">
                 </div>
             </div>
         </div>
@@ -51,11 +55,11 @@
                     Their logo has nice hues of blue and green with the Eko bridge symbol nested on the crest of the team name.">
                 <div class="score-group">
                     <div class="scores">
-                        <h3 class="score">+1</h3>
-                        <h3 class="score">+2</h3>
-                        <h3 class="score">+6</h3>
+                        <button class="score" onclick="homeShortXP()">+1</button>
+                        <button class="score" onclick="homeLongXP()">+2</button>
+                        <button class="score" onclick="homeTD()">+6</button>
                     </div>
-                    <h3 class="reset-btn">Reset</h3>
+                    <button class="reset-btn" onclick="homeReset()">Reset</button>
                     <h3 class="tuddy">Touchdown</h3>
                 </div>
             </div>
@@ -67,11 +71,11 @@
                                     Their logo has a combination of reds.">
                 <div class="score-group">
                     <div class="scores">
-                        <h3 class="score">+1</h3>
-                        <h3 class="score">+2</h3>
-                        <h3 class="score">+6</h3>
+                        <button class="score" onclick="awayShortXP()">+1</button>
+                        <button class="score" onclick="awayLongXP()">+2</button>
+                        <button class="score" onclick="awayTD()">+6</button>
                     </div>
-                    <h3 class="reset-btn">Reset</h3>
+                    <button class="reset-btn" onclick="awayReset()">Reset</button>
                     <h3 class="tuddy">Touchdown</h3>
                 </div>
             </div>
