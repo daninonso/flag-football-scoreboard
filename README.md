@@ -10,6 +10,6 @@ This project was built as part of a capstone project for an online front-end dev
 
 ## An image of the final scoreboard project
 
-<a href="https://github.com/daninonso/flag-football-scoreboard/blob/main/assets/scoreboard.png" target="_blank">
-<img src="https://github.com/daninonso/flag-football-scoreboard/blob/main/assets/scoreboard.png" alt="image of the finished scoreboard in it's empty state" width="240" height="180">
+<a href="https://ff-scoreboard.netlify.app/" target="_blank">
+<img src="https://github.com/daninonso/flag-football-scoreboard/blob/main/assets/v1.png" alt="image of the finished scoreboard in its empty state" width="900" height="486">
 </a>
